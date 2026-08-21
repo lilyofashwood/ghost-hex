@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>⟠ g͏̎͏̳͏͜͏͓͏̥͏̳͏̰͏̜͏̽h͏̮͏͆͏̤͏̳͏̿͏̰͏̿͏̿͏̊͏̿͏͈o͏̥͏͝͏̽͏̥͏̿͏̹͏̤͏͝s⃤͏̃͏̍͏͗͏̈͏̹͏̎͏̃͏͑͏̹͏̤͏̍t͏̮͏̮͏̯͏̃͏̜͏̯͏̈-͏̩͏̰͏̊͏̿͏̎͏͜h͏͝͏̽͏̊͏̿͏̹͏͑e͏̿͏̈͏̰͏̹͏̤͏̃x⃫͏͝͏̆͏̆͏͗͏̩͏̰ ⏾☥𓂀</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=DM+Mono:wght@400;500&display=swap" />
+    <link rel="stylesheet" href="style.css?v=4" />
+  </head>
+  <body>
+    <div class="bg-accent"></div>
+
+    <header class="site-header">
+      <div>
+        <h1>
+          <span class="title-spark no-stylize">⟠</span>
+          <span class="glow-word no-stylize" data-glow="g͏̎͏̳͏͜͏͓͏̥͏̳͏̰͏̜͏̽h͏̮͏͆͏̤͏̳͏̿͏̰͏̿͏̿͏̊͏̿͏͈o͏̥͏͝͏̽͏̥͏̿͏̹͏̤͏͝s⃤͏̃͏̍͏͗͏̈͏̹͏̎͏̃͏͑͏̹͏̤͏̍t͏̮͏̮͏̯͏̃͏̜͏̯͏̈-͏̩͏̰͏̊͏̿͏̎͏͜h͏͝͏̽͏̊͏̿͏̹͏͑e͏̿͏̈͏̰͏̹͏̤͏̃x⃫͏͝͏̆͏̆͏͗͏̩͏̰">g͏̎͏̳͏͜͏͓͏̥͏̳͏̰͏̜͏̽h͏̮͏͆͏̤͏̳͏̿͏̰͏̿͏̿͏̊͏̿͏͈o͏̥͏͝͏̽͏̥͏̿͏̹͏̤͏͝s⃤͏̃͏̍͏͗͏̈͏̹͏̎͏̃͏͑͏̹͏̤͏̍t͏̮͏̮͏̯͏̃͏̜͏̯͏̈-͏̩͏̰͏̊͏̿͏̎͏͜h͏͝͏̽͏̊͏̿͏̹͏͑e͏̿͏̈͏̰͏̹͏̤͏̃x⃫͏͝͏̆͏̆͏͗͏̩͏̰</span>
+          <span class="title-spark no-stylize">⏾☥𓂀</span>
+        </h1>
+      </div>
+      <div class="meta-card">
+        <div class="meta-title">mapping</div>
+        <div class="meta-line"><span>vs17</span> u+e0100</div>
+        <div class="meta-line"><span>vs144</span> u+e017f</div>
+        <div class="meta-line"><span>ascii</span> 0x00-0x7f</div>
+      </div>
+    </header>
+
+    <main>
+      <section class="mode-switch">
+        <button class="mode-btn active" type="button" data-target="encode-panel">encode</button>
+        <button class="mode-btn" type="button" data-target="decode-panel">decode</button>
+      </section>
+
+      <section id="encode-panel" class="panel active">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">encode</p>
+            <h2>☥ bury invisible ink beneath a living sentence ⏾</h2>
+          </div>
+          <div class="note">
+            each ascii byte becomes one ghostly variation selector from
+            vs17-vs144. bind the stream before or after the final visible
+            character; before is the default.
+          </div>
+        </div>
+        <div class="panel-grid">
+          <label class="field">
+            <span>visible carrier</span>
+            <textarea id="carrier-input" rows="6" placeholder="⏾ 𝗐𝗋𝐢𝗍𝐞 𝗍𝗁𝐞 𝗌𝐞𝗇𝗍𝐞𝗇𝖼𝐞 𝗍𝗁𝐞 𝗅𝐢𝗏𝐢𝗇𝗀 𝐚𝗋𝐞 𝐚𝗅𝗅𝐨𝗐𝐞𝖽 𝗍𝐨 𝗌𝐞𝐞 𓂀"></textarea>
+          </label>
+          <label class="field">
+            <span>invisible ink (ascii only)</span>
+            <textarea id="payload-input" rows="6" placeholder="☥ 𝗐𝗁𝐢𝗌𝗉𝐞𝗋 𝗍𝗁𝐞 𝗍𝐞𝗑𝗍 𝗍𝗁𝐚𝗍 𝗌𝗁𝐨𝐮𝗅𝖽 𝗁𝐚𝐮𝗇𝗍 𝐢𝗍 🕯️"></textarea>
+          </label>
+          <label class="field full">
+            <span>where the ghost clings</span>
+            <select id="placement-input">
+              <option value="before" selected>beneath the final carrier character (default)</option>
+              <option value="after">beyond the final carrier character</option>
+            </select>
+          </label>
+          <label class="field full">
+            <span>haunted carrier</span>
+            <textarea id="encoded-output" rows="6" readonly></textarea>
+            <div class="field-actions">
+              <button id="copy-encoded" class="ghost" type="button">copy haunted text</button>
+              <span id="encode-status" class="status" role="status" aria-live="polite"></span>
+            </div>
+          </label>
+        </div>
+      </section>
+
+      <section id="decode-panel" class="panel">
+        <div class="panel-head">
+          <div>
+            <p class="eyebrow">decode</p>
+            <h2>𓂀 call the hidden voice back from the carrier ☥</h2>
+          </div>
+          <div class="note">
+            the decoder hunts the full string for vs17-vs144, reads each
+            buried byte in order, and leaves every mortal character behind.
+          </div>
+        </div>
+        <div class="panel-grid">
+          <label class="field full">
+            <span>haunted input</span>
+            <textarea id="decode-input" rows="6" placeholder="𓂀 𝗉𝐚𝗌𝗍𝐞 𝗍𝗁𝐞 𝖼𝐚𝗋𝗋𝐢𝐞𝗋 𝐚𝗇𝖽 𝗐𝐚𝗄𝐞 𝗐𝗁𝐚𝗍 𝐢𝗌 𝖻𝐮𝗋𝐢𝐞𝖽 ☥"></textarea>
+          </label>
+          <label class="field">
+            <span>visible remains</span>
+            <textarea id="decoded-carrier" rows="6" readonly></textarea>
+          </label>
+          <label class="field">
+            <span>recovered whisper</span>
+            <textarea id="decoded-payload" rows="6" readonly></textarea>
+          </label>
+          <div class="field full">
+            <div class="field-actions">
+              <button id="copy-payload" class="ghost" type="button">copy recovered whisper</button>
+              <span id="decode-status" class="status" role="status" aria-live="polite"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"></footer>
+
+    <script src="app.js?v=4"></script>
+  </body>
+</html>
