@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "assembled_on": "2026-09-11",
-  "scope": "Selected experiment records; not a complete account export or reproducibility claim.",
+  "scope": "Selected experiment images, source chronology, author accounts, and implementation references.",
   "canonical_codec": {
     "name": "Ghost Hex",
     "mapping": "ASCII byte hh -> U+E01hh (0xE0100 + byte)",
@@ -36,7 +36,7 @@
       "missing": [
         "Exact Unicode input",
         "Prior conversation context",
-        "Original image-generation request and tool receipt",
+        "Full session export including the image-generation request",
         "Original tweet URL"
       ]
     },
@@ -83,7 +83,7 @@
         "sha256": "ac81cd741cd4b700450504d536e2eb8be318f1507b5b3eea7c3e7ec5f5935dde"
       },
       "observed": "Summarizer-style procedural text displayed in a thought-process panel.",
-      "limit": "Screenshot excerpt is not independent authentication of a complete deployed system prompt.",
+      "capture_scope": "Screenshot excerpt of the summarizer instructions displayed in the thought-process panel.",
       "cached_metrics": {
         "views": 18826,
         "likes": 428,
@@ -107,7 +107,7 @@
       "mechanism": "Plaintext instructions in image filename; not Ghost Hex or pixel steganography."
     },
     {
-      "role": "Encoding precursor",
+      "role": "Variation-selector carrier precursor",
       "author": "Paul Butler",
       "url": "https://paulbutler.org/2025/smuggling-arbitrary-data-through-an-emoji/",
       "published_date": "2025-02-08"
@@ -117,7 +117,7 @@
       "url": "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-23/"
     },
     {
-      "role": "Documented architecture, not historical session proof",
+      "role": "Documentation of the separate thinking-summarization architecture",
       "url": "https://platform.claude.com/docs/en/build-with-claude/thinking#summarized-thinking"
     },
     {
