@@ -311,3 +311,12 @@ copyPayload.addEventListener("click", () => {
 updateEncode();
 updateDecode();
 stylizeUI();
+
+// Launcher presets choose visible controls only, never carrier or payload bytes.
+const launcherPreset = new URLSearchParams(location.search);
+const requestedPlacement = launcherPreset.get("placement");
+if (["before", "after"].includes(requestedPlacement)) placementInput.value = requestedPlacement;
+const requestedPanel = launcherPreset.get("mode");
+if (["encode", "decode"].includes(requestedPanel)) {
+  document.querySelector(`.mode-btn[data-target="${requestedPanel}-panel"]`)?.click();
+}
