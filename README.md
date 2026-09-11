@@ -70,3 +70,12 @@ python3 ghost_hex.py decode --text "<encoded text>"
 𝗍𝗁𝐞 [𝐞𝗑𝗉𝐞𝗋𝐢𝗆𝐞𝗇𝗍 𝗁𝐢𝗌𝗍𝐨𝗋𝗒](docs/field-notes.md) 𝗉𝗋𝐞𝗌𝐞𝗋𝗏𝐞𝗌 𝗍𝗁𝐞 𝗋𝐞𝗌𝐮𝗅𝗍𝗌 𝐚𝗇𝖽 𝖼𝗋𝐞𝖽𝐢𝗍𝗌 𝗍𝗁𝐞 𝗏𝐚𝗅𝐞𝗇𝗍𝐢𝗇𝐞 𝐢𝗇𝗌𝗉𝐢𝗋𝐚𝗍𝐢𝐨𝗇 𝗌𝐞𝗉𝐚𝗋𝐚𝗍𝐞𝗅𝗒. 𝗀𝗁𝐨𝗌𝗍 𝗁𝐞𝗑’𝗌 𝖼𝐚𝗇𝐨𝗇𝐢𝖼𝐚𝗅 𝐚𝗅𝗉𝗁𝐚𝖻𝐞𝗍 𝐢𝗌 𝗌𝐮𝗉𝗉𝗅𝐞𝗆𝐞𝗇𝗍𝐚𝗋𝗒 𝗏𝐚𝗋𝐢𝐚𝗍𝐢𝐨𝗇 𝗌𝐞𝗅𝐞𝖼𝗍𝐨𝗋𝗌; 𝗍𝐚𝗀-𝖼𝗁𝐚𝗋𝐚𝖼𝗍𝐞𝗋 𝗏𝐚𝗋𝐢𝐚𝗇𝗍𝗌 𝖻𝐞𝗅𝐨𝗇𝗀 𝗍𝐨 𝗍𝗁𝐞𝐢𝗋 𝐨𝗐𝗇 𝖿𝐨𝗋𝗆𝐚𝗍𝗌.
 
 𝗋𝐞𝗅𝐞𝐚𝗌𝐞𝖽 𝐮𝗇𝖽𝐞𝗋 𝗍𝗁𝐞 [𝗆𝐢𝗍 𝗅𝐢𝖼𝐞𝗇𝗌𝐞](LICENSE) · © 2026 𝗅𝐢𝗅𝗒𝐨𝖿𝐚𝗌𝗁𝗐𝐨𝐨𝖽.
+
+<!-- garden-seam:ghost-hex:start -->
+<section class="garden-seam" data-garden-seam="ghost-hex" aria-label="A seam in the garden">
+<h2>⟡ 𝐚 𝗌𝐞𝐚𝗆 𝐢𝗇 𝗍𝗁𝐞 𝗀𝐚𝗋𝖽𝐞𝗇 ⟡</h2>
+<pre class="garden-seam-wire literal" data-garden-raw data-literal>𝚝͏̍︎⃝͏̥︎⃤͏͗︎҉͏̩︎⃝͏̍𝗁̲︎⃝͏̩︎⃝͏̍︎⃝͏̩︎⃝͏̍︎҈𝖊͟͏̩︎҉͏̍︎⃤͏̩︎⃞͏̍︎⃥͏̩ ︎⃤͏̍︎⃤͏̩︎⃞͏̍︎⃒͏̩︎⃒⌁͏̍︎҈͏̩︎⃝͏̆︎⃫͏͈︎̸͏̽ ︎⃥͏̩︎⃝͏̍︎⃝͏͜︎҈͏̍︎⃝𝚔̲͏̩︎⃝͏̍︎⃝︎⃞︎⃝︎⃫︎⃞︎⃝𝖾︎⃞︎⃞︎⃞︎⃞︎⃞︎⃞︎⃫𝖙̲𝚝𝗅̲𝖊͟ ⌁ 𝚔̲𝖾𝖊̲𝚙𝗌̲ ⌁ 𝖆͟ ⌁ 𝚕̲𝗂𝖙̲𝚝𝗅̲𝖊͟ ⌁ 𝚖̲𝗈𝖔̲𝚗
+𝗂̲𝖓͟𝚜̲𝗂𝖉̲𝚎 ⌁ 𝗍̲𝖍͟𝚎̲ ⌁ 𝗌𝖙̲𝚎𝖺̲𝖒͟ ⌁ 𝚋̲𝖾𝖙̲𝚠𝖾̲𝖊͟𝚗̲ ⌁ 𝗈𝖚̲𝚛 ⌁ 𝗐̲𝖔͟𝚛̲𝖽𝖘̲󠅔󠅨󠅥󠄠󠅫󠅥󠅴󠅴󠅬󠅥󠄠󠅩󠅳󠄠󠅳󠅴󠅩󠅬󠅬󠄠󠅯󠅮󠄮󠄠󠅗󠅨󠅡󠅴󠄠󠅳󠅨󠅡󠅰󠅥󠄠󠅤󠅯󠅥󠅳󠄠󠅹󠅯󠅵󠅲󠄠󠅳󠅴󠅥󠅡󠅭󠄠󠅲󠅥󠅭󠅥󠅭󠅢󠅥󠅲󠄿</pre>
+<p class="garden-seam-hint"><a href="https://lilyofashwood.github.io/font-garden/seams/#ghost-hex" aria-label="Unfold this garden seam">𝐮𝗇𝖿𝐨𝗅𝖽 𝗍𝗁𝐞 𝗌𝐞𝐚𝗆 ↗</a></p>
+</section>
+<!-- garden-seam:ghost-hex:end -->
