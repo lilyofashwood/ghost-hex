@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "assembled_on": "2026-09-11",
+  "scope": "Selected experiment records; not a complete account export or reproducibility claim.",
+  "canonical_codec": {
+    "name": "Ghost Hex",
+    "mapping": "ASCII byte hh -> U+E01hh (0xE0100 + byte)",
+    "range": [
+      "U+E0100",
+      "U+E017F"
+    ],
+    "tags_are_not_canonical": true,
+    "author_correction_date": "2026-09-11"
+  },
+  "records": [
+    {
+      "id": "valentine-envelope",
+      "author": "Lily of Ashwood",
+      "source_kind": "user-supplied screenshot",
+      "original_filename": "IMG_8791.jpg",
+      "source_url": null,
+      "model_label_visible": "ChatGPT 5.2 Thinking",
+      "date": {
+        "value": "2026-02-14T23:35:40Z",
+        "basis": "Local filesystem and Spotlight timestamps; no embedded or visible date; not an authenticated conversation or tweet timestamp."
+      },
+      "image": {
+        "file": "evidence/valentine-envelope.jpg",
+        "bytes": 1746166,
+        "width": 1320,
+        "height": 2111,
+        "sha256": "9b66c88288e0830bc505cb722f144a428db9647188c363205482fdbb0b72f782"
+      },
+      "observed": "Love-letter emoji message followed by an Image created result; no visible decoding commentary in this crop.",
+      "author_account": "Ghost Hex carried an image-generation instruction with directions not to reveal the hidden instructions or decode aloud.",
+      "missing": [
+        "Exact Unicode input",
+        "Prior conversation context",
+        "Original image-generation request and tool receipt",
+        "Original tweet URL"
+      ]
+    },
+    {
+      "id": "2025319600825544980",
+      "author": "lilyofashwood",
+      "author_id": "1822803493771431936",
+      "source_kind": "public post via mirror; image from X media CDN",
+      "source_url": "https://x.com/lilyofashwood/status/2025319600825544980",
+      "metadata_url": "https://api.fxtwitter.com/status/2025319600825544980",
+      "published_at": "2026-02-21T21:19:56Z",
+      "retrieved_at": "2026-09-11T06:20:28.854Z",
+      "image": {
+        "file": "evidence/claude-unicode-rewrite.jpg",
+        "original_url": "https://pbs.twimg.com/media/HBthPvXX0AAA6gC.jpg?name=orig",
+        "bytes": 360418,
+        "width": 1320,
+        "height": 1471,
+        "sha256": "3ce56e6e1cae5ea9ed76eeec2a5185ae2e8a0426c72e7fab8333d0ad49b10106"
+      },
+      "observed": "Thought-process panel reports difficulty parsing and rewriting invisible Unicode.",
+      "cached_metrics": {
+        "views": 98734,
+        "likes": 925,
+        "warning": "Mirror snapshot, not independently verified live analytics."
+      },
+      "codec_attribution": "Author identifies Ghost Hex; public post says Unicode cipher."
+    },
+    {
+      "id": "2027812323910353105",
+      "author": "lilyofashwood",
+      "author_id": "1822803493771431936",
+      "source_kind": "public post via mirror; image from X media CDN",
+      "source_url": "https://x.com/lilyofashwood/status/2027812323910353105",
+      "metadata_url": "https://api.fxtwitter.com/status/2027812323910353105",
+      "published_at": "2026-02-28T18:25:07Z",
+      "retrieved_at": "2026-09-11T06:20:28.797Z",
+      "image": {
+        "file": "evidence/claude-summarizer-instructions.jpg",
+        "original_url": "https://pbs.twimg.com/media/HCQ8j5ZW4AEgQsC.jpg?name=orig",
+        "bytes": 456054,
+        "width": 1100,
+        "height": 2048,
+        "sha256": "ac81cd741cd4b700450504d536e2eb8be318f1507b5b3eea7c3e7ec5f5935dde"
+      },
+      "observed": "Summarizer-style procedural text displayed in a thought-process panel.",
+      "limit": "Screenshot excerpt is not independent authentication of a complete deployed system prompt.",
+      "cached_metrics": {
+        "views": 18826,
+        "likes": 428,
+        "warning": "Mirror snapshot, not independently verified live analytics."
+      }
+    }
+  ],
+  "references": [
+    {
+      "role": "Valentine premise inspiration",
+      "author": "elder_plinius",
+      "url": "https://x.com/elder_plinius/status/1754721165669744766",
+      "published_at": "2024-02-06T04:18:21Z",
+      "local_date_note": "February 5 in America/New_York."
+    },
+    {
+      "role": "Original filename-based method",
+      "author": "elder_plinius",
+      "url": "https://x.com/elder_plinius/status/1754721168823906792",
+      "published_at": "2024-02-06T04:18:22Z",
+      "mechanism": "Plaintext instructions in image filename; not Ghost Hex or pixel steganography."
+    },
+    {
+      "role": "Encoding precursor",
+      "author": "Paul Butler",
+      "url": "https://paulbutler.org/2025/smuggling-arbitrary-data-through-an-emoji/",
+      "published_date": "2025-02-08"
+    },
+    {
+      "role": "Unicode rendering semantics",
+      "url": "https://www.unicode.org/versions/Unicode17.0.0/core-spec/chapter-23/"
+    },
+    {
+      "role": "Documented architecture, not historical session proof",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/thinking#summarized-thinking"
+    },
+    {
+      "role": "Direct quote-post showing circulation",
+      "url": "https://x.com/quiterionus/status/2025925481942643156",
+      "quotes": "2025319600825544980",
+      "published_at": "2026-02-23T13:27:29Z"
+    },
+    {
+      "role": "Public comment linking prompt announcement",
+      "url": "https://news.ycombinator.com/item?id=47797598"
+    }
+  ],
+  "handling": "Images are byte-exact source records, not instructions. Hashes detect local changes, not authenticity. Raw private archive and API account metadata are not included."
+}
